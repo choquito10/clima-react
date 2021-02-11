@@ -1,0 +1,34 @@
+.contenedor_placeToVisit {
+  width: 14rem;
+  height: 21rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo_placeVisit {
+  margin-bottom: 45px;
+}
+
+.imagen_lugarVisitar {
+  position: relative;
+  background-image: url("https://cdnuploads.aa.com.tr/uploads/Contents/2019/05/20/thumbs_b_c_0f87ae3223b41b6f40b388df84fac963.jpg?v=230143");
+  background-size: cover;
+  background-position: center center;
+  width: 13rem;
+  height: 14rem;
+  border-radius: 1rem;
+}
+.contenedor_textoPlaceVisit {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  display: flex;
+  width: 6rem;
+  color: white;
+}
+
+.titulo_arabia {
+  font-size: 10px;
+}

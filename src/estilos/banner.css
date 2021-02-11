@@ -1,0 +1,49 @@
+.contenedor_banner {
+  background-image: url("https://images5.alphacoders.com/427/thumb-1920-427646.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 30px;
+  height: 20rem;
+  border-radius: 30px;
+  color: white;
+}
+.titulo_banner {
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  color: white;
+  display: flex;
+}
+.icono_clima {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: rgb(60, 32, 138);
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.cuadrado_temperatura {
+  width: 4.5rem;
+  height: 5.5rem;
+  background-color: rgb(140, 80, 236);
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapa_bogota {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 9rem;
+  left: 10rem;
+}

@@ -1,0 +1,106 @@
+.contenedor_reviews {
+  width: 14rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor_fotosPersonas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 12rem;
+  margin-bottom: 48px;
+}
+.contenedor_fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_agregarReviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.icono_mas {
+  width: 10px;
+  height: 10px;
+}
+.texto_topReviews {
+  font-size: 10px;
+  color: grey;
+}
+.fotos_personas {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.mas_resultados {
+  background-color: rgb(186, 162, 233);
+  color: white;
+  height: 20px;
+  border-radius: 5px;
+  font-size: 2px;
+}
+.art_museo {
+  position: relative;
+  width: 12rem;
+  height: 4rem;
+  background-image: url("https://image.shutterstock.com/image-photo/colorful-textured-background-260nw-276379487.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+  display: flex;
+  color: white;
+  margin-bottom: 30px;
+}
+.art_museo_cuadro_abajo {
+  position: relative;
+  width: 12rem;
+  height: 7.6rem;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/681/797/non_2x/bright-red-and-orange-gradient-background-with-colorful-overlapping-shapes.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.contenedor_texto_localizacion {
+  width: 7rem;
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 5px;
+}
+.titulo_arteMuseo {
+  font-size: 10px;
+  margin-left: 4px;
+}
+.contenedor_texto_localizacion_dos {
+  width: 7rem;
+  position: absolute;
+  display: flex;
+  top: 10px;
+  left: 5px;
+}
+.titulo_arteMuseoDos {
+  font-size: 10px;
+  margin-left: 4px;
+}
+.contenedor_icono_suma {
+  border-radius: 1.5rem;
+  height: 7.6rem;
+  width: 3.5rem;
+  background-color: rgb(144, 91, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icono_suma {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
