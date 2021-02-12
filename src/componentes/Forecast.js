@@ -4,16 +4,24 @@ import "../estilos/forecast.css";
 const Forecast = ({ datos, indice }) => {
   const opciones = () => {
     const diasSemana = [
+      "Sunday",
       "Monday",
       "Tuesday",
       "Wednesday",
       "Thursday",
       "Friday",
       "Saturday",
-      "Sunday",
     ];
     const dia = new Date();
-    return diasSemana[dia.getDay() + indice];
+
+    const numeroDeDia = dia.getDay() + (indice + 1);
+    let seleccionDia = diasSemana[numeroDeDia];
+
+    if (numeroDeDia > diasSemana.length - 1) {
+      const exceso = numeroDeDia - (diasSemana.length - 1);
+      seleccionDia = diasSemana[exceso - 1];
+    }
+    return seleccionDia;
   };
 
   return (
